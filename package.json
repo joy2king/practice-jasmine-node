@@ -17,6 +17,10 @@
     "jade": "~1.11.0",
     "mongodb": "^2.1.11",
     "morgan": "~1.6.1",
+    "request": "^2.69.0",
     "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "request": "^2.69.0"
   }
 }

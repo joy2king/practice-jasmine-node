@@ -46,7 +46,7 @@ router.post('/login', function(req, res, next) {
             } else {
                 if (usrs.length !== 1 || usrs[0].pwd !== usr.pwd) {
                     return {
-                        msg: 'invalid login info'
+                        msg: 'usr or pwd is requried'
                     };
                 }
                 return {
